@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:white;
+
+}
+
+#container {
+    background: url(./img/1615633069-923466-1616262218-noticia-normal.jpg.jpg);
+    padding-bottom: 210px;
+}
+
+
+#botao-entrar {
+    background-color:green ;
+    color: white;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    background-color: black;
+}
+#paragfafo-assista {
+    background-color: black;
+    color: white;
+    font-size: 30px ;
+    text-align: center;
+    margin-top: 14px;
+  
+
+}
+
+input {
+    width: 500px;
+    padding-left: 10px;
+    color: black;
+    font-size: 24px;
+}
+#botao-email {
+    width: 250px;
+    background-color:green ;
+    color: white;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+   
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+    
+}
+#rodape{
+    background-color:#4F5061;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+#botao-perguntas{
+    width: 800px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 20px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+
+    
+}
+#pergunta {
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 20px;
+    font-size: 24px;
+}    
+    

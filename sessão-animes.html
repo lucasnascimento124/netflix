@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sessão-animes</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="cabecalho">
+            <img>
+            <button id="botao-entrar">Entrar</button>
+            </igm>
+        </div>
+
+
+        <div>
+            <h1>Filmes,séries e muinto mais.Sem limites.</h1>
+            <div id="paragfafo-assista">
+                <p>Assista onde quiser.cancele quando quiser.</p>
+                <p>pronto para assestir? Informe seu email para criar ou reniciar sua conta </p>
+            </div>
+
+            <div id="formulario">
+                <input placeholder="email">
+                <button id="botao-email">Vamos Lá</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="rodape">
+        <h2>perguntas frequentes</h2>
+        <button id="botao-perguntas">O que é a sessão-animes?</button>
+        <div id="pergunta" style="display: block;">
+            <p>A sessão-animes é um serviço de streaming por assinatura que permite assistir a séries e filmes em um
+                aparelho conectado à internet. Dependendo do seu plano, você também pode baixar seus títulos favoritos
+                em aparelhos iOS, Android ou Windows 10 para assistir quando não tiver internet.</p>
+            <br>
+            <p>A sessão-animes proporciona uma vasta seleção de filmes, séries e documentários, incluindo conteúdo
+                original e exclusivo, em uma plataforma fácil de usar</p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script>
+        let botao = document.getElementById("botao-perguntas")
+        let menu = document.getElementById("pergunta")
+
+        function abacate() {
+
+            if (menu.style.display == "none") {
+                menu.style.display = "block"
+            } else {
+                menu.style.display = "none"
+
+            }
+        }
+
+
+
+        addEventListener("click", abacate)
+
+
+    </script>
+
+</body>
+
+</html>
